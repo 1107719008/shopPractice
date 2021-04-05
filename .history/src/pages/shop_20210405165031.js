@@ -1,5 +1,7 @@
 
+
 import { Layout } from 'antd';
+
 import NavBar from "../components/NavBar";
 import AppHeader from "../components/Header";
 import AppFooter from "../components/Footer";
@@ -16,6 +18,7 @@ function shop() {
         <Header className="layout-header">
           <AppHeader title="Shopping Bag" />
         </Header>
+        
         <Content className="layout-content">
           <CartModal/>
         </Content>
